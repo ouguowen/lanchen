@@ -19,8 +19,8 @@
         <item name="android:windowFullscreen">true</item>
     </style>
     
-    <!-- 按钮样式 -->
-    <style name="Button.AICreator.Primary" parent="Widget.MaterialComponents.Button">
+    <!-- 主要按钮样式 -->
+    <style name="PrimaryButton" parent="Widget.MaterialComponents.Button">
         <item name="android:textColor">@color/white</item>
         <item name="backgroundTint">@color/primary</item>
         <item name="android:paddingStart">24dp</item>
@@ -30,7 +30,8 @@
         <item name="cornerRadius">8dp</item>
     </style>
     
-    <style name="Button.AICreator.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+    <!-- 次要按钮样式 -->
+    <style name="SecondaryButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="android:textColor">@color/primary</item>
         <item name="strokeColor">@color/primary</item>
         <item name="android:paddingStart">24dp</item>
@@ -40,7 +41,8 @@
         <item name="cornerRadius">8dp</item>
     </style>
     
-    <style name="Button.AICreator.Accent" parent="Widget.MaterialComponents.Button">
+    <!-- 强调按钮样式 -->
+    <style name="AccentButton" parent="Widget.MaterialComponents.Button">
         <item name="android:textColor">@color/white</item>
         <item name="backgroundTint">@color/accent</item>
         <item name="android:paddingStart">24dp</item>
@@ -101,8 +103,6 @@
         <item name="android:indeterminateTint">@color/accent</item>
     </style>
     
-    <!-- 这里移除了重复定义的按钮样式 -->
-    
     <!-- 文本样式 -->
     <style name="TextAppearance.AICreator.Title" parent="TextAppearance.MaterialComponents.Headline5">
         <item name="android:textColor">@color/text_primary</item>
@@ -116,4 +116,9 @@
     <style name="TextAppearance.AICreator.Body" parent="TextAppearance.MaterialComponents.Body1">
         <item name="android:textColor">@color/text_primary</item>
     </style>
+
+    <!-- 为了向后兼容，添加别名 -->
+    <style name="Button.AICreator.Primary" parent="PrimaryButton" />
+    <style name="Button.AICreator.Secondary" parent="SecondaryButton" />
+    <style name="Button.AICreator.Accent" parent="AccentButton" />
 </resources> 
