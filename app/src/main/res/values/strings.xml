@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">AI创作助手</string>
+    
+    <!-- 主界面 -->
+    <string name="home_title">AI多功能创作助手</string>
+    <string name="text_to_image">文生图</string>
+    <string name="image_to_video">图生视频</string>
+    <string name="voice_clone">声音克隆</string>
+    <string name="content_writing">文案创作</string>
+    <string name="digital_human">数字人生成</string>
+    
+    <!-- 页面标题 -->
+    <string name="text_to_image_title">文生图</string>
+    <string name="image_to_video_title">图生视频</string>
+    <string name="voice_clone_title">声音克隆</string>
+    <string name="content_writing_title">文案创作</string>
+    <string name="digital_human_title">数字人生成</string>
+    <string name="login_title">登录</string>
+    <string name="register_title">注册</string>
+    <string name="profile_title">个人资料</string>
+    
+    <!-- 文生图功能 -->
+    <string name="text_to_image_hint">请输入详细的图像描述...</string>
+    <string name="image_size">图像尺寸</string>
+    <string name="creativity">创意度</string>
+    <string name="generate_image">生成图像</string>
+    <string name="save_image">保存图像</string>
+    <string name="share_image">分享图像</string>
+    
+    <!-- 图生视频功能 -->
+    <string name="select_image">选择图片</string>
+    <string name="video_style">视频风格</string>
+    <string name="video_duration">视频时长</string>
+    <string name="motion_intensity">运动强度</string>
+    <string name="generate_video">生成视频</string>
+    <string name="save_video">保存</string>
+    <string name="share_video">分享</string>
+    
+    <!-- 声音克隆功能 -->
+    <string name="voice_clone_mode">克隆模式</string>
+    <string name="upload_sample">上传样本</string>
+    <string name="record_voice">录制声音</string>
+    <string name="preset_voice">预设声音</string>
+    <string name="text_to_speak">要转换的文字</string>
+    <string name="voice_speed">语速</string>
+    <string name="voice_pitch">音调</string>
+    <string name="generate_voice">生成语音</string>
+    <string name="play_voice">播放</string>
+    <string name="save_voice">保存</string>
+    <string name="share_voice">分享</string>
+    
+    <!-- 文案创作功能 -->
+    <string name="content_type">文案类型</string>
+    <string name="content_keywords">关键词</string>
+    <string name="content_requirements">详细要求</string>
+    <string name="content_length">文案长度</string>
+    <string name="content_style">风格</string>
+    <string name="generate_content">生成文案</string>
+    <string name="copy_content">复制</string>
+    <string name="edit_content">编辑</string>
+    <string name="share_content">分享</string>
+    
+    <!-- 数字人生成功能 -->
+    <string name="gender">性别</string>
+    <string name="male">男性</string>
+    <string name="female">女性</string>
+    <string name="age">年龄</string>
+    <string name="features">特征</string>
+    <string name="upload_reference">上传参考图像</string>
+    <string name="generate_digital_human">生成数字人</string>
+    <string name="save_digital_human">保存</string>
+    <string name="share_digital_human">分享</string>
+    
+    <!-- 用户相关 -->
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="email">邮箱</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="forgot_password">忘记密码</string>
+    <string name="logout">退出登录</string>
+    <string name="my_creations">我的作品</string>
+    <string name="favorites">收藏</string>
+    <string name="settings">设置</string>
+    
+    <!-- 通用 -->
+    <string name="loading">正在生成中...</string>
+    <string name="error_network">网络错误，请检查网络连接</string>
+    <string name="error_api">API错误: %s</string>
+    <string name="success_saved">保存成功</string>
+    <string name="success_shared">分享成功</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="retry">重试</string>
+    <string name="save">保存</string>
+    <string name="share">分享</string>
+    <string name="delete">删除</string>
+    <string name="favorite">收藏</string>
+    <string name="unfavorite">取消收藏</string>
+    <string name="video_thumbnail">视频缩略图</string>
+</resources> 

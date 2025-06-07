@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 图像尺寸选项 -->
+    <string-array name="image_sizes">
+        <item>512x512</item>
+        <item>768x768</item>
+        <item>1024x1024</item>
+        <item>1024x768</item>
+        <item>768x1024</item>
+        <item>1280x720</item>
+        <item>720x1280</item>
+    </string-array>
+    
+    <!-- 视频时长选项 -->
+    <string-array name="video_durations">
+        <item>3秒</item>
+        <item>5秒</item>
+        <item>8秒</item>
+        <item>10秒</item>
+    </string-array>
+    
+    <!-- 视频风格选项 -->
+    <string-array name="video_styles">
+        <item>写实风格</item>
+        <item>动漫风格</item>
+        <item>绘画风格</item>
+        <item>素描风格</item>
+    </string-array>
+    
+    <!-- 文案类型选项 -->
+    <string-array name="content_types">
+        <item>广告文案</item>
+        <item>产品介绍</item>
+        <item>社交媒体帖子</item>
+        <item>新闻稿</item>
+        <item>博客文章</item>
+        <item>脚本</item>
+    </string-array>
+    
+    <!-- 文案风格选项 -->
+    <string-array name="content_styles">
+        <item>正式</item>
+        <item>幽默</item>
+        <item>专业</item>
+        <item>情感</item>
+        <item>简洁</item>
+        <item>详细</item>
+    </string-array>
+    
+    <!-- 文案长度选项 -->
+    <string-array name="content_lengths">
+        <item>短 (100字以内)</item>
+        <item>中等 (300字左右)</item>
+        <item>长 (500字以上)</item>
+    </string-array>
+    
+    <!-- 声音类型选项 -->
+    <string-array name="voice_types">
+        <item>男声</item>
+        <item>女声</item>
+        <item>儿童声</item>
+        <item>机器人声</item>
+    </string-array>
+    
+    <!-- 数字人特征选项 -->
+    <string-array name="digital_human_features">
+        <item>微笑</item>
+        <item>严肃</item>
+        <item>专业</item>
+        <item>友好</item>
+        <item>亲切</item>
+        <item>自信</item>
+        <item>时尚</item>
+        <item>商务</item>
+    </string-array>
+</resources> 

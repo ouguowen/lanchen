@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基础颜色 -->
+    <color name="primary">#1A237E</color>
+    <color name="primary_dark">#0D1259</color>
+    <color name="primary_light">#534BAE</color>
+    <color name="accent">#00BCD4</color>
+    <color name="accent_light">#62EFFF</color>
+    <color name="accent_dark">#008BA3</color>
+    
+    <!-- 中性色 -->
+    <color name="white">#FFFFFF</color>
+    <color name="gray_50">#FAFAFA</color>
+    <color name="gray_100">#F5F5F5</color>
+    <color name="gray_200">#EEEEEE</color>
+    <color name="gray_300">#E0E0E0</color>
+    <color name="gray_400">#BDBDBD</color>
+    <color name="gray_500">#9E9E9E</color>
+    <color name="gray_600">#757575</color>
+    <color name="gray_700">#616161</color>
+    <color name="gray_800">#424242</color>
+    <color name="gray_900">#212121</color>
+    <color name="black">#000000</color>
+    
+    <!-- 功能颜色 -->
+    <color name="success">#4CAF50</color>
+    <color name="info">#2196F3</color>
+    <color name="warning">#FFC107</color>
+    <color name="error">#F44336</color>
+    
+    <!-- 透明度 -->
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#80000000</color>
+    
+    <!-- 背景颜色 -->
+    <color name="background">#F9FAFC</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="dark_background">#121212</color>
+    <color name="dark_card_background">#1E1E1E</color>
+    
+    <!-- 文字颜色 -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_disabled">#BDBDBD</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#B3FFFFFF</color>
+    
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+</resources> 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 背景颜色渐变 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="135"
+                android:startColor="#0D1259"
+                android:centerColor="#1A237E"
+                android:endColor="#3949AB" />
+        </shape>
+    </item>
+    
+    <!-- 粒子效果背景 -->
+    <item>
+        <bitmap
+            android:src="@drawable/particles_bg"
+            android:tileMode="disabled"
+            android:gravity="center" />
+    </item>
+    
+    <!-- 应用Logo -->
+    <item android:gravity="center">
+        <bitmap
+            android:src="@drawable/app_logo"
+            android:gravity="center" />
+    </item>
+    
+    <!-- 应用名称 -->
+    <item android:bottom="50dp" android:gravity="bottom|center_horizontal">
+        <bitmap
+            android:src="@drawable/app_name_text"
+            android:gravity="center" />
+    </item>
+</layer-list> 

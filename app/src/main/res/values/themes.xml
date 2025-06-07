@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基础主题 -->
+    <style name="Theme.AICreator" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- 主要颜色 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        
+        <!-- 其他颜色 -->
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <item name="android:textColorSecondary">@color/colorTextSecondary</item>
+        
+        <!-- 状态栏和导航栏 -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        
+        <!-- 文本外观 -->
+        <item name="textAppearanceHeadline6">@style/TextAppearance.AICreator.Title</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.AICreator.Subtitle</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.AICreator.Body</item>
+        
+        <!-- 组件样式 -->
+        <item name="materialCardViewStyle">@style/CardView.AICreator</item>
+        <item name="textInputStyle">@style/TextInputLayout.AICreator</item>
+        <item name="materialButtonStyle">@style/Button.AICreator.Primary</item>
+    </style>
+    
+    <!-- 启动页主题 -->
+    <style name="Theme.AICreator.Splash" parent="Theme.AICreator">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources> 
