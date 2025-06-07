@@ -103,7 +103,7 @@
             <!-- 生成按钮 -->
             <Button
                 android:id="@+id/generate_button"
-                style="@style/Button.Primary"
+                style="@style/Button.AICreator.Primary"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/generate_image"
@@ -138,7 +138,7 @@
 
                         <Button
                             android:id="@+id/save_button"
-                            style="@style/Button.Secondary"
+                            style="@style/Button.AICreator.Secondary"
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
@@ -147,7 +147,7 @@
 
                         <Button
                             android:id="@+id/share_button"
-                            style="@style/Button.Accent"
+                            style="@style/Button.AICreator.Accent"
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:layout_height="wrap_content"
