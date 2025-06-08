@@ -7,7 +7,7 @@
         <!-- 组件样式 -->
         <item name="materialCardViewStyle">@style/CardView.AICreator</item>
         <item name="textInputStyle">@style/TextInputLayout.AICreator</item>
-        <item name="materialButtonStyle">@style/PrimaryButton</item>
+        <item name="materialButtonStyle">@style/Button.AICreator.Primary</item>
         
         <!-- 文本外观 -->
         <item name="textAppearanceHeadline6">@style/TextAppearance.AICreator.Title</item>
@@ -22,4 +22,4 @@
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:windowFullscreen">true</item>
     </style>
-</resources> 
+</resources> </resources>
